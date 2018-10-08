@@ -6,5 +6,6 @@ Team Blogs
 将gdal的三种文件都移到项目目录里之后，还要添加一段代码
 #pragma comment(lib, "gdal_i.lib")
 之后我的项目还是一直出错，检查后发现代码中的trees.jpg我没有添加到项目文件夹里，添加之后程序就能正常运行了。
+![Image text](https://github.com/lovelyfanzi/information/blob/master/fo.png?raw=true)
 
 
