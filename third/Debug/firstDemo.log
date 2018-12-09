@@ -1,0 +1,80 @@
+﻿生成启动时间为 2018/10/6 23:04:45。
+     1>项目“F:\项目指导\软件工程代码\firstDemo\firstDemo.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\firstDemo.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\firstDemo.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         F:\项目指导\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\firstDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         F:\项目指导\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\firstDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt firstDemo.cpp
+         firstDemo.cpp
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(3): warning C4627: “#include <iostream>”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(5): warning C4627: “#include "./gdal/gdal-priv.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(17): error C2065: “GDALDataset”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(17): error C2065: “poSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(19): error C2065: “GDALDataset”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(19): error C2065: “poDstDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(27): error C2065: “GByte”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(27): error C2065: “buffTmp”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(32): error C3861: “GDALAllRegister”: 找不到标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(35): error C2065: “poSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(35): error C2065: “GDALDataset”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(35): error C2059: 语法错误:“)”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(38): error C2065: “poSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(38): error C2227: “->GetRasterXSize”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(39): error C2065: “poSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(39): error C2227: “->GetRasterYSize”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(40): error C2065: “poSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(40): error C2227: “->GetRasterCount”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(42): error C2065: “cout”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(42): error C2065: “endl”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(43): error C2065: “cout”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(43): error C2065: “endl”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(44): error C2065: “cout”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(44): error C2065: “endl”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(47): error C2065: “buffTmp”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(47): error C2065: “GByte”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(47): error C2059: 语法错误:“)”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(50): error C2065: “poDstDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(50): error C2227: “->GetDriverByName”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(50): error C2227: “->Creat”的左边必须指向类/结构/联合/泛型类型
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(50): error C2065: “GDT_Byte”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(50): error C3861: “GetGDALDriverManager”: 找不到标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(53): error C2143: 语法错误 : 缺少“;”(在“:”的前面)
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(53): error C2143: 语法错误 : 缺少“)”(在“:”的前面)
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(53): error C2143: 语法错误 : 缺少“;”(在“:”的前面)
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(53): error C2059: 语法错误:“)”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(54): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(55): error C2065: “poSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(55): error C2227: “->GetRasterBand”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(55): error C2227: “->RasterIO”的左边必须指向类/结构/联合/泛型类型
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(55): error C2065: “GF_Read”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(55): error C2065: “buffTmp”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(55): error C2065: “GDT_Byte”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(56): error C2065: “poDstDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(56): error C2227: “->GetRasterBand”的左边必须指向类/结构/联合/泛型类型
+                 类型是“'unknown-type'”
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(56): error C2227: “->RasterIO”的左边必须指向类/结构/联合/泛型类型
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(56): error C2065: “GF_Write”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(56): error C2065: “buffTmp”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(56): error C2065: “GDT_Byte”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(61): error C2065: “buffTmp”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(61): error C3861: “CPLFree”: 找不到标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(63): error C2065: “poDstDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(63): error C3861: “GDALClose”: 找不到标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(64): error C2065: “POSrcDS”: 未声明的标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(64): error C3861: “GDALClose”: 找不到标识符
+     1>f:\项目指导\软件工程代码\firstdemo\firstdemo.cpp(66): error C3861: “system”: 找不到标识符
+     1>已完成生成项目“F:\项目指导\软件工程代码\firstDemo\firstDemo.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.37
