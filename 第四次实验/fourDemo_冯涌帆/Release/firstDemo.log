@@ -1,0 +1,26 @@
+﻿生成启动时间为 2018/12/26 14:59:04。
+     1>项目“G:\ruangong\fourDemo\firstDemo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\fourDemo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         G:\vc\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\fourDemo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt firstDemo.cpp
+         firstDemo.cpp
+     1>firstDemo.cpp(35): warning C4101: “j”: 未引用的局部变量
+       Link:
+         G:\vc\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ruangong\fourDemo\Release\fourDemo.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\fourDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ruangong\fourDemo\Release\fourDemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ruangong\fourDemo\Release\fourDemo.lib" /MACHINE:X86 Release\firstDemo.obj
+         Release\stdafx.obj
+            正在创建库 G:\ruangong\fourDemo\Release\fourDemo.lib 和对象 G:\ruangong\fourDemo\Release\fourDemo.exp
+         正在生成代码
+         已完成代码的生成
+         firstDemo.vcxproj -> G:\ruangong\fourDemo\Release\fourDemo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\ruangong\fourDemo\Release\fourDemo.exe;#1" /manifest Release\fourDemo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\fourDemo.unsuccessfulbuild”。
+         正在对“Release\fourDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\ruangong\fourDemo\firstDemo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.54

@@ -1,0 +1,35 @@
+﻿生成启动时间为 2018/12/26 14:28:57。
+     1>项目“G:\ruangong\fourDemo\firstDemo.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\fourDemo.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\vc\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\fourDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         G:\vc\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\fourDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt firstDemo.cpp
+         firstDemo.cpp
+     1>g:\ruangong\fourdemo\firstdemo.cpp(34): warning C4101: “tmpYlen”: 未引用的局部变量
+     1>g:\ruangong\fourdemo\firstdemo.cpp(34): warning C4101: “tmpXlen”: 未引用的局部变量
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\fourDemo.exe.embed.manifest.res" Debug\fourDemo_manifest.rc 
+       Link:
+         G:\vc\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ruangong\fourDemo\Debug\fourDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\fourDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ruangong\fourDemo\Debug\fourDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ruangong\fourDemo\Debug\fourDemo.lib" /MACHINE:X86 Debug\fourDemo.exe.embed.manifest.res
+         Debug\firstDemo.obj
+         Debug\stdafx.obj
+            正在创建库 G:\ruangong\fourDemo\Debug\fourDemo.lib 和对象 G:\ruangong\fourDemo\Debug\fourDemo.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\fourDemo.exe.embed.manifest" /manifest Debug\fourDemo.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\fourDemo.exe.embed.manifest.res" Debug\fourDemo_manifest.rc 
+       LinkEmbedManifest:
+         G:\vc\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ruangong\fourDemo\Debug\fourDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\fourDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\ruangong\fourDemo\Debug\fourDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ruangong\fourDemo\Debug\fourDemo.lib" /MACHINE:X86 Debug\fourDemo.exe.embed.manifest.res
+         Debug\firstDemo.obj
+         Debug\stdafx.obj
+            正在创建库 G:\ruangong\fourDemo\Debug\fourDemo.lib 和对象 G:\ruangong\fourDemo\Debug\fourDemo.exp
+         firstDemo.vcxproj -> G:\ruangong\fourDemo\Debug\fourDemo.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\fourDemo.unsuccessfulbuild”。
+         正在对“Debug\fourDemo.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\ruangong\fourDemo\firstDemo.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.10
